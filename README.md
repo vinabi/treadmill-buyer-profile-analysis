@@ -19,7 +19,7 @@ AeroFit offers three treadmill models with different features and pricing:
 ---
 
 ## **Dataset Description**
-The dataset `aerofit_treadmill_data.csv` includes the following features:  
+The dataset `aerofit.csv` includes the following features:  
 - **Product**: Purchased treadmill model (KP281, KP481, KP781).  
 - **Age**: Customer's age (in years).  
 - **Gender**: Male/Female.  
@@ -29,55 +29,6 @@ The dataset `aerofit_treadmill_data.csv` includes the following features:
 - **Fitness**: Self-rated fitness level (1 to 5 scale, where 1 = poor and 5 = excellent).  
 - **Income**: Annual income (USD).  
 - **Miles**: Expected weekly miles walked/ran.  
-
----
-
-## **Steps of Analysis**
-### **1. Data Exploration and Processing**
-- Import the dataset and read the DataFrame.  
-- Check the shape, column datatypes, and missing/duplicate values.  
-
-### **2. Statistical Summary**
-- Generate a statistical summary for both categorical and numerical features.  
-- Analyze key trends in the data distribution.  
-
-### **3. Non-Graphical Analysis**
-- Perform value counts for categorical features.  
-- Identify unique attributes in the dataset.  
-
-### **4. Graphical Analysis**
-#### Univariate Analysis:
-- **Numerical Features**: Distribution plots, count plots, box plots.  
-- **Categorical Features**: Count plots.  
-
-#### Bivariate Analysis:
-- Analyze the effect of different features on product purchases:  
-  - **Product vs Gender.**  
-  - **Product vs Marital Status.**  
-  - **Product vs Age.**  
-
-#### Multivariate Analysis:
-- Create pair plots to visualize relationships between features.  
-
-### **5. Correlation Analysis**
-- Display the correlation matrix using a heatmap.  
-- Summarize findings about strongly correlated features.  
-
-### **6. Outlier Detection**
-- Identify outliers using the IQR method and assess their impact on the analysis.  
-
-### **7. Conditional Probabilities**
-- Calculate percentages and conditional probabilities for various feature combinations, such as:  
-  - **Product vs Gender**:  
-    - 22.22% of females purchasing KP281.  
-  - **Product vs Age**:  
-    - approx. 85% of customers in their 20s or 30s purchasing treadmills.  
-  - **Product vs Income**:  
-    - % of high/low-income customers buying KP781.  
-  - **Product vs Fitness**:  
-    - % of fitness-level-5 customers buying KP781.  
-  - **Product vs Marital Status**:  
-    - % of partnered customers using treadmills.  
 
 ---
 
@@ -141,10 +92,69 @@ The dataset `aerofit_treadmill_data.csv` includes the following features:
   ![Products Purchased: Marital Status](visuals/product_purchased.png)
 
 - **Treadmil Usage: Weekly**  
-  ![Treadmil Usage: Weekly](visuals/weekly.png) 
+  ![Treadmil Usage: Weekly](visuals/weekly.png)
+  
 ---
 
-1. Clone this repository:  
+## **Steps of Analysis**
+### **1. Data Exploration and Processing**
+- Import the dataset and read the DataFrame.  
+- Check the shape, column datatypes, and missing/duplicate values.  
+
+### **2. Statistical Summary**
+- Generate a statistical summary for both categorical and numerical features.  
+- Analyze key trends in the data distribution.  
+
+### **3. Non-Graphical Analysis**
+- Perform value counts for categorical features.  
+- Identify unique attributes in the dataset.  
+
+### **4. Graphical Analysis**
+#### Univariate Analysis:
+- **Numerical Features**: Distribution plots, count plots, box plots.  
+- **Categorical Features**: Count plots.  
+
+#### Bivariate Analysis:
+- Analyze the effect of different features on product purchases:  
+  - **Product vs Gender.**  
+  - **Product vs Marital Status.**  
+  - **Product vs Age.**  
+
+#### Multivariate Analysis:
+- Create pair plots to visualize relationships between features.  
+
+### **5. Correlation Analysis**
+- Display the correlation matrix using a heatmap.  
+- Summarize findings about strongly correlated features.  
+
+### **6. Outlier Detection**
+- Identify outliers using the IQR method and assess their impact on the analysis.  
+
+### **7. Conditional Probabilities**
+- Calculate percentages and conditional probabilities for various feature combinations, such as:  
+  - **Product vs Gender**:  
+    - 22.22% of females purchasing KP281.  
+  - **Product vs Age**:  
+    - approx. 85% of customers in their 20s or 30s purchasing treadmills.  
+  - **Product vs Income**:  
+    - % of high/low-income customers buying KP781.  
+  - **Product vs Fitness**:  
+    - % of fitness-level-5 customers buying KP781.  
+  - **Product vs Marital Status**:  
+    - % of partnered customers using treadmills.  
+
+---
+
+## 🛠️ Setup Instructions
+
+Clone this repository:  
    ```bash
    git clone https://github.com/vinabi/treadmill-buyer-profile-analysis.git
    cd treadmill-buyer-profile-analysis
+
+'- check the ipynb script file for analysis
+
+---
+
+#  If you find this project helpful, don’t forget to star the repo! 🎀
+
