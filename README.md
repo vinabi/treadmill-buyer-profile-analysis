@@ -147,6 +147,25 @@ The dataset `aerofit.csv` includes the following features:
 
 ---
 
+### Recommendations for Marketing & Product Strategy
+
+1. **Segment Marketing by Income**:  
+   Create tailored marketing campaigns targeting customers based on their income. High-income customers can be encouraged to explore the KP781, while middle-income customers can be shown the value proposition of the KP481.
+
+2. **Gender-Specific Promotions**:  
+   As males show a preference for the KP281, consider running promotions, advertisements, or social media campaigns that specifically target male fitness enthusiasts. Conversely, female-targeted ads could emphasize the premium features and stylish design of the KP781.
+
+3. **Leverage Marital Status Data**:  
+   Partnered customers are likely to value versatility and shared use, which means products like the KP481 and KP781 could appeal to them more. Offering discounts or promotions for purchases of two treadmills could drive sales among this demographic.
+
+4. **Enhance Customer Experience for High-Income Segments**:  
+   Develop premium packages for high-income customers, offering personalized support, extended warranties, or exclusive services like home installation and fitness coaching.
+
+5. **Incorporate Product Bundles**:  
+   Create bundles or family packages that include multiple treadmills or related fitness equipment. This can be particularly appealing for partnered customers and families looking to invest in fitness together.
+
+---
+
 ## 🛠️ Setup Instructions
 
 Clone this repository:  
@@ -154,7 +173,7 @@ Clone this repository:
    git clone https://github.com/vinabi/treadmill-buyer-profile-analysis.git
    cd treadmill-buyer-profile-analysis
 ```
-'- check the ipynb script file for analysis
+- check the ```aerofit_analysis.ipynb``` script file for analysis
 
 ---
 
