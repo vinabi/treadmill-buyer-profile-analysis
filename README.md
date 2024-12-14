@@ -49,7 +49,7 @@ The dataset `aerofit.csv` includes the following features:
 4. **Correlation Matrix:**  
    - Strong positive correlation between income and preference for high-end treadmills.  
 
-### **Sample Visualizations**
+## **Visualizations**
 
 - **Products Distribution**  
   ![Products Distribution](visuals/prodist.png)
