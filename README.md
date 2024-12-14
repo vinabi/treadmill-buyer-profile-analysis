@@ -33,6 +33,7 @@ The dataset `aerofit.csv` includes the following features:
 ---
 
 ## **Key Findings and Visualizations**
+
 1. **Univariate Analysis:**  
    - **Age**: Most customers fall within the 20-30 age range.  
    - **Income**: Higher income correlates with purchases of KP281.  
@@ -49,6 +50,7 @@ The dataset `aerofit.csv` includes the following features:
    - Strong positive correlation between income and preference for high-end treadmills.  
 
 ### **Sample Visualizations**
+
 - **Products Distribution**  
   ![Products Distribution](visuals/prodist.png)
 
@@ -148,10 +150,10 @@ The dataset `aerofit.csv` includes the following features:
 ## 🛠️ Setup Instructions
 
 Clone this repository:  
-   ```bash
+```bash
    git clone https://github.com/vinabi/treadmill-buyer-profile-analysis.git
    cd treadmill-buyer-profile-analysis
-
+```
 '- check the ipynb script file for analysis
 
 ---
